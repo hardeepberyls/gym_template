@@ -1,0 +1,127 @@
+@media (max-width: 767px) {
+  .banner_text h2 {
+    font-size: 14px;
+  }
+  .banner_text {
+    top: 20%;
+    display: none;
+  }
+  .banner_text p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .carousel-indicators {
+    margin-bottom: 0px !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .welcome_spark h2,
+  .healthy_spark h2,
+  .health_card h2,
+  .spark_pricing_title p,
+  .spark_pricing_btn a {
+    font-size: 18px;
+  }
+  .welcome_title {
+    padding: 25px 0px 0px;
+  }
+  .welcome_spark p {
+    font-size: 12px;
+    margin: 0px;
+  }
+  .spark_btn a {
+    font-size: 14px;
+  }
+  .spark_content {
+    padding: 15px 0px 30px;
+  }
+  .spark_bg h2::after {
+    width: 94px;
+    right: 30%;
+    top: 45px;
+  }
+  .spark_service,
+  .spark_footer {
+    flex-direction: column;
+  }
+  .spark_tag p {
+    font-size: 12px;
+    width: 175px;
+  }
+  .spark_tag h6 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .healthy_spark h3 {
+    font-size: 36px;
+  }
+  .spark_service_m {
+    flex-direction: row;
+  }
+  .health_card p {
+    font-size: 10px;
+  }
+  .spark_healthy {
+    background-position: -200px 0px;
+  }
+  .schedule_wrapper {
+    padding: 60px 0px 50px;
+  }
+  .spark_schedule_card::before,
+  .spark_pricing_card:before {
+    left: 80px;
+    width: 80px;
+    height: 80px;
+  }
+  .spark_schedule_image_1::before,
+  .spark_schedule_image_2::before,
+  .spark_schedule_image_3::before,
+  .spark_schedule_image_4::before {
+    background-size: contain;
+  }
+  .mob_mb {
+    margin-bottom: 70px;
+  }
+  .spark_pricing_card:before {
+    left: 72px;
+  }
+  .spark_pricing_title h3 {
+    font-size: 28px;
+  }
+  .spark_right {
+    border-right: none;
+  }
+  .spark_pricing::after {
+    width: 48px;
+    right: 40%;
+  }
+  .spark_footer_card h3 {
+    text-align: center;
+  }
+  .spark_footer_card ul {
+    padding-left: 80px;
+  }
+  .mx-auto_m {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banefit_bg,.spark_healthy {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
+      url("../images/homepage/banefit.png") no-repeat;
+  }
+  .banefit_wrap {
+    background-color: #000000;
+    padding: 50px 0px 50px;
+  }
+  .healthy_right{
+    background-color: #000000;
+  }
+  .spark_schedule h2{
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,492 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.welcome_spark h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.welcome_spark p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  color: #ffffff;
+}
+.spark_btn a {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffb000;
+  padding: 6px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.spark_btn a:hover {
+  color: #000000;
+}
+
+.spark_service,
+.spark_footer {
+  display: flex;
+}
+.spark_bg {
+  background-color: #63605a;
+  padding: 20px 0px;
+  position: relative;
+}
+.spark_card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+.spark_card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.spark_why {
+  color: #ffffff;
+}
+.spark_card {
+  padding: 15px 15px;
+}
+.spark_tag p {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.spark_tag h6 {
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+.spark_divider {
+  font-size: 30px;
+}
+.spark_tag {
+  background-color: #ffb000;
+  padding: 10px 0px;
+}
+.healthy_spark {
+  padding: 60px 0px 15px;
+}
+.healthy_spark h2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.healthy_spark h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.stay_h {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffb000;
+}
+.spark_schedule_card,
+.spark_pricing_card {
+  background-color: #bcbbbb;
+  height: 300px;
+  position: relative;
+  padding-top: 70px;
+}
+.spark_pricing_card {
+  background-color: #edeeef;
+  border-radius: 10px;
+  box-shadow: 27px 5px 50px 0px rgb(0 0 0 / 25%);
+  height: 375px;
+}
+.spark_schedule_card::before,
+.spark_pricing_card:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -48px;
+  background-color: #000000;
+  left: 115px;
+}
+.spark_pricing_card:first-child:before {
+  background-color: #e5ae14;
+  background-image: url("../images/homepage/p_1.png");
+  display: inline-block;
+  background-size: contain;
+}
+.spark_pricing_card:nth-child(3n + 2):before {
+  background-color: #e5ae14;
+  background-image: url("../images/homepage/p_2.png");
+  display: inline-block;
+  background-size: contain;
+}
+.spark_pricing_card:nth-child(3n + 3):before {
+  background-color: #e5ae14;
+  background-image: url("../images/homepage/p_3.png");
+  display: inline-block;
+  background-size: contain;
+}
+.spark_schedule_title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #fef000;
+}
+.spark_schedule_btn,
+.spark_pricing_btn {
+  position: absolute;
+  bottom: 0px;
+  background-color: #000000;
+  padding: 10px 0px;
+}
+.spark_pricing_btn {
+  background-color: #e5ae14;
+}
+.spark_schedule_btn a,
+.spark_pricing_btn a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.spark_pricing_btn a {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000000;
+}
+.spark_pricing_btn a:hover {
+  color: #000000;
+}
+.schedule_wrapper {
+  padding: 80px 0px 50px;
+  justify-content: space-around;
+}
+.spark_schedule_card:hover {
+  background-color: #ffb000;
+}
+.spark_schedule_card:hover .spark_schedule_title h3,
+.spark_schedule_btn a:hover {
+  color: #ffffff;
+}
+.m-8 {
+  margin: 0px 8px;
+}
+.m-8_1 {
+  margin-right: 8px;
+}
+.pricing_wrapper {
+  justify-content: center;
+}
+.spark_pricing h2 {
+  color: #000000;
+  margin: 0px;
+  text-transform: uppercase;
+  position: relative;
+}
+.pricing_wrapper {
+  padding: 80px 0px;
+}
+.spark_pricing_title h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.spark_pricing_title p {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px;
+}
+.pricing_margin {
+  margin: 0px 15px;
+}
+.spark_cal input,
+.spark_cal select {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+}
+.spark_cal input::placeholder,
+.spark_cal select {
+  font-size: 15px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.calc_wrap {
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.banefit_wrap {
+  justify-content: space-around;
+  padding: 190px 0px 50px;
+}
+.spark_bmi h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.spark_bmi h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.spark_bmi p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.spark_calculate a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+.spark_calculate {
+  padding: 4px 10px;
+  background-color: #e5ae14;
+  text-align: center;
+  border-radius: 35px;
+  margin-top: 10px;
+}
+.spark_c {
+  font-weight: 500;
+  color: #ffb000;
+}
+.bmi_right h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.bmi_spark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bmi_spark span {
+  font-size: 125px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.spark_right {
+  border-right: 1px solid #ffffff;
+}
+.spark_trainer {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+}
+.spark_gym_btn {
+  background-color: #000000;
+  padding: 10px 0px;
+  border-radius: 12px;
+}
+.spark_gym_btn p {
+  font-size: 18px;
+  margin: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.spark_logo a {
+  flex-basis: 100px;
+}
+.spark_logo ul li:last-child {
+  background-color: crimson;
+  border-radius: 20px;
+}
+.spark_logo ul li a:last-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+.slider_section {
+  position: relative;
+}
+.menubar,
+.banner_text {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.welcome_bg {
+  background-image: url("../images/aboutus/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome_title {
+  padding: 50px 0px 20px;
+}
+.spark_content {
+  padding: 15px 0px 40px;
+}
+.spark_btn {
+  padding-bottom: 34px;
+}
+.welcome_title h2 {
+  color: #ffffff;
+}
+.spark_bg h2::after,
+.spark_pricing::after {
+  content: "";
+  width: 140px;
+  height: 5px;
+  background-color: #e5ae14;
+  border-radius: 10px;
+  position: absolute;
+  right: 42%;
+  top: 60px;
+}
+.spark_pricing::after {
+  width: 85px;
+  right: 45%;
+  top: initial;
+}
+.spark_service_card {
+  padding: 35px 0px;
+}
+.spark_healthy {
+  background: url("../images/homepage/healthy.jpg") no-repeat;
+  background-size: cover;
+}
+.health_card h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.health_card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.health_spark_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spark_schedule h4 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.healthy_right {
+  padding-bottom: 30px;
+}
+.spark_schedule {
+  padding: 45px 0px 0px;
+}
+.spark_schedule h2 {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.y_color {
+  color: #ffb000;
+}
+.spark_schedule_image_1::before {
+  background-image: url("../images/homepage/img44.png");
+  display: inline-block;
+}
+.spark_schedule_image_2::before {
+  background-image: url("../images/homepage/img45.png");
+  display: inline-block;
+}
+.spark_schedule_image_3::before {
+  background-image: url("../images/homepage/img46.png");
+  display: inline-block;
+}
+.spark_schedule_image_4::before {
+  background-image: url("../images/homepage/img47.png");
+  display: inline-block;
+}
+.spark_pricing {
+  padding: 20px 0px;
+}
+.bmi_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/homepage/bmi_image.png");
+  background-size: cover;
+}
+.bmi_space {
+  padding: 30px 0px;
+}
+.spark_cal input::placeholder {
+  background-color: none !important;
+  color: #ffffff;
+}
+.spark_left {
+  padding-top: 15px;
+}
+.banefit_bg {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url("../images/homepage/banefit.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.healthy_spark_content h2,
+.spark_footer_card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.healthy_spark_content p,
+.testi_content p,
+.spark_footer_card ul li,
+.footer_copyright p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.top_align {
+  align-items: flex-start;
+}
+.testi_content p {
+  color: #63605a;
+}
+.footer_section {
+  background-color: #000000;
+}
+.spark_footer_card ul li {
+  line-height: 24px;
+}
+.footer_copyright p {
+  margin: 0px;
+}
+.banner_text h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0px;
+  color: #ffffff;
+}
+.banner_text p {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  padding-top: 15px;
+  color: #ffffff;
+}
+.banner_text {
+  top: 32%;
+  left: 10%;
+  background-color: transparent;
+}
+.carousel-indicators [data-bs-target]{
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+}
